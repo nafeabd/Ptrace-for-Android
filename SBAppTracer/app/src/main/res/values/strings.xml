@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SBAppTracer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonTrace">TraceME</string>
+    <string name="title_activity_view_info">ViewInfo</string>
+    <string name="backBtn">Back</string>
+    <string name="buttonKill">Kill</string>
+    <string name="buttonClear">clear</string>
+    <string name="buttonCount">Instruction Count</string>
+    <string name="hint">Search system call..</string>
+    <string name="btnInspect">Inspect/Monitor</string>
+    <string name="text">Enter Syscall Name/Number: </string>
+
+</resources>
