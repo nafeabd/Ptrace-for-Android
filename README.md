@@ -5,7 +5,7 @@ A user level debugging application which can trace a running application in Andr
 
 1.Introduction:
 
-	Ptrace is one the most important system call available in linux distributions.Most of the debugging utilities
+Ptrace is one the most important system call available in linux distributions.Most of the debugging utilities
 like gdb and other common debugging practices involve the usage of Ptrace at great extent.On the other hand considering
 the fact that android is build on top of linux , android equally enjoys the in built-implementation of Ptrace.But there
 are very limited number of ready made tools/utilities available that leverage the efficiency of Ptrace in Android.So in 
@@ -17,12 +17,12 @@ get the count of machine level instruction executed by any application.
 
 2.Design Principles:
 
- 	Our design principles are based on the perspective of a typical debugger.
+Our design principles are based on the perspective of a typical debugger.
 
 
 3.Implementation Details:
 
-	The application/tool can be available in two forms.One is in the command line form and other as an android app
+The application/tool can be available in two forms.One is in the command line form and other as an android app
 built on Android kitkat(API 19).Our application supports the android OS running on both ARM and X86 architectures.
 Ptrace is complex system call which can perform different operations depending on the type of requests it takes.We have
 used some of the Ptrace variants to accomplish our tasks.Below are the features we are supporting from our tool.
